@@ -34,7 +34,7 @@ public class RaycastTest : MonoBehaviour
                 instantiatedObject = Instantiate(PrefabToInstantiate, planeHitPose.position, planeHitPose.rotation);
             }
         }
-
+        
         if (instantiatedObject != null)
         {
             if (!deactivatePlanesOnce)
@@ -51,6 +51,7 @@ public class RaycastTest : MonoBehaviour
                 deactivatePlanesOnce = false;
             }
         }
+        
     }
 
     void EnableDisableAllPlanes(bool status)
