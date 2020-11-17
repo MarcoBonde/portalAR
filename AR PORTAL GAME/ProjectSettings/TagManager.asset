@@ -6,6 +6,9 @@ TagManager:
   tags:
   - ARPlanes
   - Portale
+  - Lenti
+  - SpegniLenti
+  - AccendiLenti
   layers:
   - Default
   - TransparentFX
