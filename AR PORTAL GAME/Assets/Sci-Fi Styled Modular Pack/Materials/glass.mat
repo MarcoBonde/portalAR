@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: glass
-  m_Shader: {fileID: 4800000, guid: 295ef3c5f40555d46ab87cf0259fe811, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4b17be49322c98946896b9f816480a77, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -86,11 +86,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Transparency: 0.5
     - _UVSec: 0
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:
-    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _AlbedoColor: {r: 0.29411766, g: 0.10980393, b: 0.29803923, a: 1}
     - _Color: {r: 0.102941155, g: 0.102941155, b: 0.102941155, a: 0.247}
     - _Emission: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.032, g: 0.032, b: 0.032, a: 1}
